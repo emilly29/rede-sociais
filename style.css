@@ -11,6 +11,16 @@ body {
     color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
+    header {
+        background-color: var(--primary-color);
+        text-align: center;
+        padding: 1px;
+    }
+    
+    nav a:hover {
+        text-decoration: underline;
+        transform: scale(0.90);
+        transition: transform 0.1s;
     margin: 0;
 }
 h1 {
@@ -24,6 +34,16 @@ nav {
     justify-content: center;
     font-weight: 400;
 }
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
 nav a {
     text-decoration: none;
     color: var(--bg-color);
@@ -35,14 +55,12 @@ header {
     text-align: center;
     padding: 1px;
 }
-/* código omitido */
 
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
 }
-/* código omitido */
 
 footer {
     display: flex;
